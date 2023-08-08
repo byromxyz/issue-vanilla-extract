@@ -1,0 +1,23 @@
+{
+  "name": "issue-vanilla-extract",
+  "dependencies": {
+    "@types/webpack": "^5.28.1",
+    "@types/webpack-dev-server": "^4.7.2",
+    "css-loader": "^6.8.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "@vanilla-extract/webpack-plugin": "^2.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "webpack": "^5.88.2"
+  },
+  "scripts": {
+    "ts:node": "ts-node --files --project tsconfig.json",
+    "build": "npm run ts:node -- \"./build.ts\""
+  }
+}
